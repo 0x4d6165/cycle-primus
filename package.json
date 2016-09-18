@@ -1,0 +1,40 @@
+{
+  "name": "cycle-primus",
+  "version": "0.0.0",
+  "description": "A Cycle.js driver for primus",
+  "license": "MIT",
+  "repository": "gigavinyl/cycle-primus",
+  "author": {
+    "name": "Logan Saunders",
+    "email": "gigavinyl@gmail.com",
+    "url": "github.com/gigavinyl"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "coveralls": "^2.11.12",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
